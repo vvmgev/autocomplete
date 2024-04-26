@@ -1,0 +1,29 @@
+.autocomplete {
+    position: relative;
+    width: 200px;
+}
+
+.search {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list {
+    position: absolute;
+    list-style-type: none;
+    max-height: 200px;
+    overflow: auto;
+    padding: 0px;
+    width: 100%;
+    top: 10px;
+    background: #1c1b1b;
+}
+
+.list li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.list li:hover {
+    background-color: black;
+}
